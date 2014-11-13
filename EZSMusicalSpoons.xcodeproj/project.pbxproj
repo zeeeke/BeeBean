@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB83AF9E688ED0ACE02EBF3 /* libPods-EZSMusicalSpoons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546F8A2F03904243B9C9966 /* libPods-EZSMusicalSpoons.a */; };
+		B36A5CBF1A146DBD000D8BEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CBE1A146DBD000D8BEC /* main.m */; };
+		B36A5CC21A146DBD000D8BEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CC11A146DBD000D8BEC /* AppDelegate.m */; };
+		B36A5CC51A146DBD000D8BEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CC41A146DBD000D8BEC /* ViewController.m */; };
+		B36A5CC81A146DBD000D8BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36A5CC61A146DBD000D8BEC /* Main.storyboard */; };
+		B36A5CCA1A146DBD000D8BEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36A5CC91A146DBD000D8BEC /* Images.xcassets */; };
+		B36A5CCD1A146DBD000D8BEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36A5CCB1A146DBD000D8BEC /* LaunchScreen.xib */; };
+		B36A5CD91A146DBD000D8BEC /* EZSMusicalSpoonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CD81A146DBD000D8BEC /* EZSMusicalSpoonsTests.m */; };
+		B36A5CE81A147015000D8BEC /* MSSBeanController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CE71A147015000D8BEC /* MSSBeanController.m */; };
+		B36A5CEE1A14747E000D8BEC /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = B36A5CEB1A14747E000D8BEC /* GUGS_Fluid_v1_44.sf2 */; };
+		B36A5CEF1A14747E000D8BEC /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A5CED1A14747E000D8BEC /* SCAudioController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36A5CD31A146DBD000D8BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36A5CB11A146DBD000D8BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36A5CB81A146DBD000D8BEC;
+			remoteInfo = EZSMusicalSpoons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422596D0A6728436C7B05B2C /* Pods-EZSMusicalSpoons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZSMusicalSpoons.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZSMusicalSpoons/Pods-EZSMusicalSpoons.release.xcconfig"; sourceTree = "<group>"; };
+		9546F8A2F03904243B9C9966 /* libPods-EZSMusicalSpoons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZSMusicalSpoons.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36A5CB91A146DBD000D8BEC /* EZSMusicalSpoons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZSMusicalSpoons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36A5CBD1A146DBD000D8BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36A5CBE1A146DBD000D8BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36A5CC01A146DBD000D8BEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36A5CC11A146DBD000D8BEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B36A5CC31A146DBD000D8BEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B36A5CC41A146DBD000D8BEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B36A5CC71A146DBD000D8BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36A5CC91A146DBD000D8BEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B36A5CCC1A146DBD000D8BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B36A5CD21A146DBD000D8BEC /* EZSMusicalSpoonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZSMusicalSpoonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36A5CD71A146DBD000D8BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36A5CD81A146DBD000D8BEC /* EZSMusicalSpoonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZSMusicalSpoonsTests.m; sourceTree = "<group>"; };
+		B36A5CE61A147015000D8BEC /* MSSBeanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBeanController.h; sourceTree = "<group>"; };
+		B36A5CE71A147015000D8BEC /* MSSBeanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBeanController.m; sourceTree = "<group>"; };
+		B36A5CEB1A14747E000D8BEC /* GUGS_Fluid_v1_44.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GUGS_Fluid_v1_44.sf2; sourceTree = "<group>"; };
+		B36A5CEC1A14747E000D8BEC /* SCAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioController.h; sourceTree = "<group>"; };
+		B36A5CED1A14747E000D8BEC /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
+		D7F3086EC7166745C1C9381B /* Pods-EZSMusicalSpoons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZSMusicalSpoons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZSMusicalSpoons/Pods-EZSMusicalSpoons.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36A5CB61A146DBD000D8BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB83AF9E688ED0ACE02EBF3 /* libPods-EZSMusicalSpoons.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36A5CCF1A146DBD000D8BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67FFFAB53544C5A912008E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9546F8A2F03904243B9C9966 /* libPods-EZSMusicalSpoons.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CC2E55EEB5C521D4913775C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3086EC7166745C1C9381B /* Pods-EZSMusicalSpoons.debug.xcconfig */,
+				422596D0A6728436C7B05B2C /* Pods-EZSMusicalSpoons.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B36A5CB01A146DBD000D8BEC = {
+			isa = PBXGroup;
+			children = (
+				B36A5CEA1A14747E000D8BEC /* SynthStuff */,
+				B36A5CBB1A146DBD000D8BEC /* EZSMusicalSpoons */,
+				B36A5CD51A146DBD000D8BEC /* EZSMusicalSpoonsTests */,
+				B36A5CBA1A146DBD000D8BEC /* Products */,
+				7CC2E55EEB5C521D4913775C /* Pods */,
+				67FFFAB53544C5A912008E7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B36A5CBA1A146DBD000D8BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CB91A146DBD000D8BEC /* EZSMusicalSpoons.app */,
+				B36A5CD21A146DBD000D8BEC /* EZSMusicalSpoonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36A5CBB1A146DBD000D8BEC /* EZSMusicalSpoons */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CC01A146DBD000D8BEC /* AppDelegate.h */,
+				B36A5CC11A146DBD000D8BEC /* AppDelegate.m */,
+				B36A5CC31A146DBD000D8BEC /* ViewController.h */,
+				B36A5CC41A146DBD000D8BEC /* ViewController.m */,
+				B36A5CE61A147015000D8BEC /* MSSBeanController.h */,
+				B36A5CE71A147015000D8BEC /* MSSBeanController.m */,
+				B36A5CC61A146DBD000D8BEC /* Main.storyboard */,
+				B36A5CC91A146DBD000D8BEC /* Images.xcassets */,
+				B36A5CCB1A146DBD000D8BEC /* LaunchScreen.xib */,
+				B36A5CBC1A146DBD000D8BEC /* Supporting Files */,
+			);
+			path = EZSMusicalSpoons;
+			sourceTree = "<group>";
+		};
+		B36A5CBC1A146DBD000D8BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CBD1A146DBD000D8BEC /* Info.plist */,
+				B36A5CBE1A146DBD000D8BEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36A5CD51A146DBD000D8BEC /* EZSMusicalSpoonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CD81A146DBD000D8BEC /* EZSMusicalSpoonsTests.m */,
+				B36A5CD61A146DBD000D8BEC /* Supporting Files */,
+			);
+			path = EZSMusicalSpoonsTests;
+			sourceTree = "<group>";
+		};
+		B36A5CD61A146DBD000D8BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CD71A146DBD000D8BEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36A5CEA1A14747E000D8BEC /* SynthStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B36A5CEB1A14747E000D8BEC /* GUGS_Fluid_v1_44.sf2 */,
+				B36A5CEC1A14747E000D8BEC /* SCAudioController.h */,
+				B36A5CED1A14747E000D8BEC /* SCAudioController.m */,
+			);
+			path = SynthStuff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36A5CB81A146DBD000D8BEC /* EZSMusicalSpoons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36A5CDC1A146DBD000D8BEC /* Build configuration list for PBXNativeTarget "EZSMusicalSpoons" */;
+			buildPhases = (
+				8C6978C574721FDE611D7184 /* Check Pods Manifest.lock */,
+				B36A5CB51A146DBD000D8BEC /* Sources */,
+				B36A5CB61A146DBD000D8BEC /* Frameworks */,
+				B36A5CB71A146DBD000D8BEC /* Resources */,
+				17B51C89FCA8A4A5D4AAAB4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZSMusicalSpoons;
+			productName = EZSMusicalSpoons;
+			productReference = B36A5CB91A146DBD000D8BEC /* EZSMusicalSpoons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36A5CD11A146DBD000D8BEC /* EZSMusicalSpoonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36A5CDF1A146DBD000D8BEC /* Build configuration list for PBXNativeTarget "EZSMusicalSpoonsTests" */;
+			buildPhases = (
+				B36A5CCE1A146DBD000D8BEC /* Sources */,
+				B36A5CCF1A146DBD000D8BEC /* Frameworks */,
+				B36A5CD01A146DBD000D8BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36A5CD41A146DBD000D8BEC /* PBXTargetDependency */,
+			);
+			name = EZSMusicalSpoonsTests;
+			productName = EZSMusicalSpoonsTests;
+			productReference = B36A5CD21A146DBD000D8BEC /* EZSMusicalSpoonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36A5CB11A146DBD000D8BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zeke Shearer";
+				TargetAttributes = {
+					B36A5CB81A146DBD000D8BEC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B36A5CD11A146DBD000D8BEC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B36A5CB81A146DBD000D8BEC;
+					};
+				};
+			};
+			buildConfigurationList = B36A5CB41A146DBD000D8BEC /* Build configuration list for PBXProject "EZSMusicalSpoons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36A5CB01A146DBD000D8BEC;
+			productRefGroup = B36A5CBA1A146DBD000D8BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36A5CB81A146DBD000D8BEC /* EZSMusicalSpoons */,
+				B36A5CD11A146DBD000D8BEC /* EZSMusicalSpoonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36A5CB71A146DBD000D8BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A5CC81A146DBD000D8BEC /* Main.storyboard in Resources */,
+				B36A5CCD1A146DBD000D8BEC /* LaunchScreen.xib in Resources */,
+				B36A5CCA1A146DBD000D8BEC /* Images.xcassets in Resources */,
+				B36A5CEE1A14747E000D8BEC /* GUGS_Fluid_v1_44.sf2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36A5CD01A146DBD000D8BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B51C89FCA8A4A5D4AAAB4E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZSMusicalSpoons/Pods-EZSMusicalSpoons-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6978C574721FDE611D7184 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36A5CB51A146DBD000D8BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A5CEF1A14747E000D8BEC /* SCAudioController.m in Sources */,
+				B36A5CC51A146DBD000D8BEC /* ViewController.m in Sources */,
+				B36A5CC21A146DBD000D8BEC /* AppDelegate.m in Sources */,
+				B36A5CBF1A146DBD000D8BEC /* main.m in Sources */,
+				B36A5CE81A147015000D8BEC /* MSSBeanController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36A5CCE1A146DBD000D8BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A5CD91A146DBD000D8BEC /* EZSMusicalSpoonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36A5CD41A146DBD000D8BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36A5CB81A146DBD000D8BEC /* EZSMusicalSpoons */;
+			targetProxy = B36A5CD31A146DBD000D8BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36A5CC61A146DBD000D8BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36A5CC71A146DBD000D8BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36A5CCB1A146DBD000D8BEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36A5CCC1A146DBD000D8BEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36A5CDA1A146DBD000D8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36A5CDB1A146DBD000D8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36A5CDD1A146DBD000D8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F3086EC7166745C1C9381B /* Pods-EZSMusicalSpoons.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZSMusicalSpoons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36A5CDE1A146DBD000D8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422596D0A6728436C7B05B2C /* Pods-EZSMusicalSpoons.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZSMusicalSpoons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B36A5CE01A146DBD000D8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZSMusicalSpoonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZSMusicalSpoons.app/EZSMusicalSpoons";
+			};
+			name = Debug;
+		};
+		B36A5CE11A146DBD000D8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZSMusicalSpoonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZSMusicalSpoons.app/EZSMusicalSpoons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36A5CB41A146DBD000D8BEC /* Build configuration list for PBXProject "EZSMusicalSpoons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36A5CDA1A146DBD000D8BEC /* Debug */,
+				B36A5CDB1A146DBD000D8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36A5CDC1A146DBD000D8BEC /* Build configuration list for PBXNativeTarget "EZSMusicalSpoons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36A5CDD1A146DBD000D8BEC /* Debug */,
+				B36A5CDE1A146DBD000D8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36A5CDF1A146DBD000D8BEC /* Build configuration list for PBXNativeTarget "EZSMusicalSpoonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36A5CE01A146DBD000D8BEC /* Debug */,
+				B36A5CE11A146DBD000D8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36A5CB11A146DBD000D8BEC /* Project object */;
+}
