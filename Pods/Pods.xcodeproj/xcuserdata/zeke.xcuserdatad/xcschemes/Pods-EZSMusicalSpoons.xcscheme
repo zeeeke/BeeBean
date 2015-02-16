@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "185686D26C157678EA96711A"
+               BlueprintIdentifier = "AFED70DC4A6098954EAA20BD"
                BuildableName = "libPods-EZSMusicalSpoons.a"
                BlueprintName = "Pods-EZSMusicalSpoons"
                ReferencedContainer = "container:Pods.xcodeproj">

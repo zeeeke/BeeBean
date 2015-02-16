@@ -59,7 +59,7 @@
 
 - (void)BeanManager:(PTDBeanManager*)beanManager didDiscoverBean:(PTDBean*)bean error:(NSError*)error
 {
-    if ( [bean.name isEqualToString:@"SpillTheBeans"] ) {
+    if ( [bean.name isEqualToString:@"Bean"] ) {
         [self.beanManager connectToBean:bean error:nil];
     }
 }

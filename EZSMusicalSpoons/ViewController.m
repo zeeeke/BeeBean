@@ -76,7 +76,7 @@
     min = -99;
     max = 99;
 
-    zAccel = zAccel *100;
+    zAccel = zAccel *150;
     
     if ( zAccel < min ) {
         zAccel = min;
